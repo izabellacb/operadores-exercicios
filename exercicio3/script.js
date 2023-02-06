@@ -1,4 +1,4 @@
-/*
+//Exercício parte I
 const op1 = 5 > 20 && 5 < 2
 console.log('operaçao 1',op1)
 
@@ -11,7 +11,6 @@ console.log('operação 3',op3)
 const op4 = !(20 > 50 || 50 > 60)
 console.log('operação 4',op4)
 
-*/
 
 //Exercicio parte II
 const salFixo = 2000
@@ -66,6 +65,7 @@ const descontoInssJun = (salFixo + comissaoJun) * 0.05
 console.log(`Desconto de Junho será de: ${descontoInssJun}`)
 const salFinalJun = (salBenef + comissaoJun - descontoInssJun)
 console.log(`Salário Final de Junho: ${salFinalJun}`)
+
 
 //Exercício parte V
 const mediaSal = (salFinalJan + salFinalFev + salFinalMar +
